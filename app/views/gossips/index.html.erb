@@ -17,7 +17,7 @@
       <tr>
         <td><%= gossip.title %></td>
         <td><%= gossip.content_gossip %></td>
-        <td><%= gossip.user %></td>
+        <td><%= gossip.user.name %></td>
         <td><%= link_to 'Show', gossip %></td>
         <td><%= link_to 'Edit', edit_gossip_path(gossip) %></td>
         <td><%= link_to 'Destroy', gossip, method: :delete, data: { confirm: 'Are you sure?' } %></td>

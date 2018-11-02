@@ -62,6 +62,8 @@ A toi de jouer !
 ```sh
 $ bundle install
 ```
+rails  db:create
+
 3. Migrate db files
 ```sh
 $ rails db:migrate
